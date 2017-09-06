@@ -7,8 +7,17 @@
 	cd flycat 
 	mvn clean install -DskipTests
 	
+部署
+
+	mvn cat:install
 	
- 
+启动Web服务
+
+	cd cat-home
+	mvn jetty:run
+	
+
+
 
 CAT [![Build Status](https://travis-ci.org/dianping/cat.png?branch=master)](https://travis-ci.org/dianping/cat)
 ===
