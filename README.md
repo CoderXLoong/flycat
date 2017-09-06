@@ -1,3 +1,15 @@
+下载源代码
+
+	git clone https://github.com/flythinker/flycat.git
+
+编译
+
+	cd flycat 
+	mvn clean install -DskipTests
+	
+	
+ 
+
 CAT [![Build Status](https://travis-ci.org/dianping/cat.png?branch=master)](https://travis-ci.org/dianping/cat)
 ===
 ##### CAT基于Java开发的实时应用监控平台，包括实时应用监控，业务监控。[2013-01-06] 
